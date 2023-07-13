@@ -5,24 +5,26 @@ a {
   text-decoration: none;
   color: #000;
 }
+
 ul {
   display: flex;
-}
-li {
   list-style: none;
 }
+
 .br-spacing {
   letter-spacing: 5px;
 }
+
 .br-links {
-  /* float: right; */
   margin: 0 16px;
 }
+
 .abt {
   border-bottom: 1px solid#f1f1f1;
   font-size: 24px;
   padding: 10px;
 }
+
 .top {
   z-index: 1;
   width: 100%;
@@ -35,50 +37,61 @@ li {
   padding: 16px 16px;
   align-items: center;
 }
+
 .br-float-item:hover,
 .br-only:hover {
-  background-color: #ccc;
+  border: 1px solid #000;
 }
+
 .br-links:focus {
   border: 2px solid #000;
 }
+
 .br-head {
   width: fit-content;
 }
+
 .br-only {
   width: 20px;
   padding: 7px;
   align-self: center;
 }
+
 .br-float-item {
-  /* float: right; */
   margin: -5px 13px;
   padding: 5px;
 }
+
 .br-large {
   font-size: 34px;
 }
+
 .br-text {
   position: absolute;
   width: 100%;
   top: 45%;
 }
+
 b {
   color: black;
   letter-spacing: 0;
   font-weight: bolder;
 }
+
 .text-on-img > img {
   width: 100%;
   height: auto;
 }
+
 .text-on-img {
   position: relative;
   text-align: center;
 }
+
 /* .br-float-item:{
     border-bottom: 3px solid#000;
 } */
+
 .br-shadow {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
@@ -90,6 +103,7 @@ b {
 .br-text-highlight {
   color: #161616;
 }
+
 .br {
   background-color: #000;
   text-transform: uppercase;
@@ -97,12 +111,15 @@ b {
   padding: 10px;
   color: #fff;
 }
+
 .br-opacity {
   opacity: 0.75;
 }
+
 .pr {
   padding: 40px;
 }
+
 .br-layout {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
@@ -116,12 +133,16 @@ b {
 .info {
   line-height: 22.5px;
 }
-.br-about {
+
+.br-about,
+#contact {
   padding: 4%;
 }
+
 .box {
   position: relative;
 }
+
 .top-left {
   top: 1px;
   padding: 5px;
@@ -129,16 +150,19 @@ b {
   position: absolute;
   background-color: black;
 }
+
 .grid {
   display: grid;
   margin: 20px 0;
   gap: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
 .title {
   opacity: 0.6;
   padding-bottom: 5px;
 }
+
 .btn2 {
   width: 100%;
   border: none;
@@ -147,6 +171,7 @@ b {
   margin: 30px 0;
   background-color: #f1f1f1;
 }
+
 .btn1 {
   color: #fff;
   padding: 10px;
@@ -156,10 +181,12 @@ b {
   text-transform: uppercase;
   border: none;
 }
+
 .btn2:hover {
   cursor: pointer;
   background-color: lightgrey;
 }
+
 input[type="text"],
 [type="email"] {
   font-size: 17px;
